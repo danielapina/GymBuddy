@@ -1,0 +1,313 @@
+[
+  {
+    "name": "alfa",
+    "monday": {
+      "title": "Chest and Triceps",
+      "exercises": [
+        {
+          "id": 1,
+          "name": "Bench press",
+          "sets": 4,
+          "repetitions": "10 - 12",
+          "weight": "30 lbs",
+          "img": "pending"
+        },
+        {
+          "id": 2,
+          "name": "Dumbell incline",
+          "sets": 4,
+          "repetitions": "6 - 12",
+          "weight": "25 lbs",
+          "img": "pending"
+        },
+        {
+          "id": 3,
+          "name": "Pac fly",
+          "sets": 4,
+          "repetitions": "10 - 12",
+          "weight": "90 lbs",
+          "img": "pending"
+        },
+        {
+          "id": 4,
+          "name": "skull crushers",
+          "sets": 4,
+          "repetitions": "15",
+          "weight": "15 lbs",
+          "img": "pending"
+        },
+        {
+          "id": 5,
+          "name": "Tricep pushdown",
+          "sets": 4,
+          "repetitions": "10 - 12",
+          "weight": "30 lbs",
+          "img": "pending"
+        },
+        {
+          "id": 6,
+          "name": "Frontal raises",
+          "sets": 4,
+          "repetitions": "12",
+          "weight": "25 lbs",
+          "img": "pending"
+        },
+        {
+          "id": 7,
+          "type": "cardio",
+          "name": "Incline walking",
+          "time": "5 - 10 min",
+          "incline": "8",
+          "level": "5-6",
+          "img": "pending"
+        }
+      ]
+    },
+    "tuesday": {
+      "title": "Lower Body(Quads)",
+      "exercises": [
+        {
+          "id": 1,
+          "name": "Squats",
+          "sets": 4,
+          "repetitions": "7-10",
+          "weight": "70-100 lbs",
+          "img": "pending"
+        },
+        {
+          "id": 2,
+          "name": "Leg press",
+          "sets": 4,
+          "repetitions": "10-12",
+          "weight": "100 lbs",
+          "img": "pending"
+        },
+        {
+          "id": 3,
+          "name": "Leg extension",
+          "sets": 4,
+          "repetitions": "10 - 12",
+          "weight": "90 lbs",
+          "img": "pending"
+        },
+        {
+          "id": 4,
+          "name": "Elevated heel squat",
+          "sets": 4,
+          "repetitions": "10 - 12",
+          "weight": "30 lbs",
+          "img": "pending"
+        },
+        {
+          "id": 5,
+          "name": "Leg Curl",
+          "sets": 4,
+          "repetitions": "12",
+          "weight": "40 lbs",
+          "img": "pending"
+        },
+        {
+          "id": 6,
+          "type": "cardio",
+          "name": "Stair walk",
+          "time": "5-10 min",
+          "level": "8-10",
+          "img": "pending"
+        }
+      ]
+    },
+    "wednesday": {
+      "title": "Back and triceps",
+      "exercises": [
+        {
+          "id": 1,
+          "name": "Pull ups (or assited)",
+          "sets": 5,
+          "repetitions": "6-10",
+          "weight": "Na",
+          "img": "pending"
+        },
+        {
+          "id": 2,
+          "name": "Neutral grip pull down",
+          "sets": 4,
+          "repetitions": "12",
+          "weight": "45 lbs",
+          "img": "pending"
+        },
+        {
+          "id": 3,
+          "name": "String bar push down",
+          "sets": 4,
+          "repetitions": "12",
+          "weight": "25 lbs",
+          "img": "pending"
+        },
+        {
+          "id": 4,
+          "name": "Barbell row",
+          "sets": 4,
+          "repetitions": "10",
+          "weight": "45 lbs",
+          "img": "pending"
+        },
+        {
+          "id": 5,
+          "name": "Zottman curls",
+          "sets": 4,
+          "repetitions": "7 - 10",
+          "weight": "25 lbs",
+          "img": "pending"
+        },
+        {
+          "id": 6,
+          "name": "Barbell bicep curl",
+          "sets": 4,
+          "repetitions": "12",
+          "weight": "25 lbs",
+          "img": "pending"
+        },
+        {
+          "id": 7,
+          "name": "Hyperextension",
+          "sets": 4,
+          "repetitions": "12",
+          "weight": "25 lbs",
+          "img": "pending"
+        },
+        {
+          "id": 8,
+          "type": "cardio",
+          "name": "Incline walking",
+          "time": "5 - 10 min",
+          "incline": "8",
+          "level": "5-6",
+          "img": "pending"
+        }
+      ]
+    },
+    "thursday": {
+      "title": "Lower Body(Glutes)",
+      "exercises": [
+        {
+          "id": 1,
+          "name": "Sumo squads",
+          "sets": 4,
+          "repetitions": "10-12",
+          "weight": "70-100",
+          "img": "pending"
+        },
+        {
+          "id": 2,
+          "name": "Roman dead lift (RDL)",
+          "sets": 4,
+          "repetitions": "10",
+          "weight": "70-100 lbs",
+          "img": "pending"
+        },
+        {
+          "id": 3,
+          "name": "Forward lean squad",
+          "sets": 4,
+          "repetitions": "10-12",
+          "weight": "45-55 lbs",
+          "img": "pending"
+        },
+        {
+          "id": 4,
+          "name": "Hip thurst",
+          "sets": 4,
+          "repetitions": "10-12",
+          "weight": "70-100 lbs",
+          "img": "pending"
+        },
+        {
+          "id": 5,
+          "name": "Bulgarian split squad",
+          "sets": 4,
+          "repetitions": "12/side",
+          "weight": "25 lbs",
+          "img": "pending"
+        },
+        {
+            "id": 5,
+            "name": "Cable kickBack",
+            "sets": 4,
+            "repetitions": "12/side",
+            "weight": "45 lbs",
+            "img": "pending"
+          },
+        {
+          "id": 6,
+          "name": "Calves",
+          "sets": 3,
+          "repetitions": "12",
+          "weight": "25 lbs",
+          "img": "pending"
+        },
+        {
+          "id": 6,
+          "type": "cardio",
+          "name": "Stair walk",
+          "time": "5-10 min",
+          "level": "8-10",
+          "img": "pending"
+        }
+      ]
+    },
+    "friday": {
+      "title": "Shoulders and Core",
+      "exercises": [
+        {
+          "id": 1,
+          "name": "Overhead military press",
+          "sets": 4,
+          "repetitions": "10-12",
+          "weight": "30-70",
+          "img": "pending"
+        },
+        {
+          "id": 2,
+          "name": "Seated dumbell press",
+          "sets": 4,
+          "repetitions": "10",
+          "weight": "25-35 lbs",
+          "img": "pending"
+        },
+        {
+          "id": 3,
+          "name": "Superset lateral raises",
+          "sets": 4,
+          "repetitions": "10-12",
+          "weight": "10-15 lbs",
+          "img": "pending"
+        },
+        {
+          "id": 4,
+          "name": "Face pulls",
+          "sets": 4,
+          "repetitions": "12",
+          "weight": "25 lbs",
+          "img": "pending"
+        },
+        {
+          "id": 5,
+          "name": "Barbell raise",
+          "sets": 4,
+          "repetitions": "12",
+          "weight": "20 lbs",
+          "img": "pending"
+        },
+        {
+          "id": 7,
+          "type": "cardio",
+          "name": "Incline walking",
+          "time": "5 - 10 min",
+          "incline": "8",
+          "level": "5-6",
+          "img": "pending"
+        }
+      ]
+    }
+  }
+]
