@@ -1,7 +1,12 @@
 import React from "react";
 
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Button } from "react-bootstrap";
+import { Link } from 'react-router-dom';
 import "./styles/banner.scss";
+
+import Icon1 from '../assets/lift-icon.png';
+import Icon2 from '../assets/russian-icon.png'
+import Icon3 from '../assets/weight-icon.png'
 
 const Banner = () => {
   return (
@@ -19,36 +24,62 @@ const Banner = () => {
 
 const InformationBanner = () => {
   return (
-    <Container
-      className="p-4  text-white"
-      style={{ backgroundColor: "#354B45", height: "fit-content" }}
-      fluid
-    >
+    <Container fluid>
       <Row>
-        <Col className="p-4 rounded" style={{ backgroundColor: "#4F6786" }}>
-          <p>Compleate work out slips.</p>
+        <Col>
+          <div id="banner1" className="info-banner">
+          <Button
+            as={Link}
+            to="/slips"
+            className="btn"
+        >
+          Lets Go!
+          </Button>
+          </div>
         </Col>
-        <Col className="p-4 rounded" style={{ backgroundColor: "#C67410" }}>
-          <p>Muscle group detail excersice </p>
+        <Col>
+          <div className="side-info">
+          <img src={Icon1} alt="weight-svg" className="svg" />
+          <p>Varios gym slips</p>
+        </div>
         </Col>
       </Row>
       <Row>
-        <Col
-          className="rounded p-0"
-          style={{ backgroundColor: "#D5CABD", color: "black" }}
+        <Col>
+          <div className="side-info">
+          <img src={Icon2} alt="russian-svg" className="svg" />
+          <p>Muscle group detail excersice </p>
+        </div>
+        </Col>
+        <Col>
+          <div id="banner2" className="info-banner">
+          <Button
+            as={Link}
+            to="/exercises"
+            className="btn"
         >
-          <div className="banner rounded bg-image p-3 text-white">
-            Save and track your lifted weight progression
+          Lets Go!
+          </Button>
           </div>
         </Col>
       </Row>
-
       <Row>
-        <Col
-          className="p-4 mb-5 rounded"
-          style={{ backgroundColor: "#D5CABD", color: "black" }}
+        <Col>
+          <div id="banner3" className="info-banner">
+          <Button
+            as={Link}
+            to="/saved"
+            className="btn"
         >
-          <p>No more excuses go work out!</p>
+          Lets Go!
+          </Button>
+          </div>
+        </Col>
+        <Col>
+          <div className="side-info">
+          <img src={Icon3} alt="-svg" className="svg" />
+          <p>Save and track your lifted weight progression </p>
+        </div>
         </Col>
       </Row>
     </Container>

@@ -4,12 +4,13 @@ import { NavLink } from 'react-router-dom';
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
+import './styles/Nav.scss';
 
 const NavBar = () => {
   return (
     <Navbar  sticky="top" bg="dark" variant="dark" expand="sm">
       <Container>
-        <Navbar.Brand as={NavLink} to="/">GymBuddy</Navbar.Brand>
+        <Navbar.Brand className="logo" as={NavLink} to="/">GymBuddy</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">

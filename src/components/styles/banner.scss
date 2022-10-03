@@ -1,5 +1,11 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
 *{
-  font-family: Oxy, Arial, Helvetica, sans-serif;
+  font-family: 'Nunito', sans-serif;
+}
+.col{
+  padding: 0 !important;
 }
 
 .banner{ 
@@ -12,4 +18,66 @@
   width: 100%;
   height:30vmin
     
+}
+
+#banner1{
+  background-image: 
+  url(
+"../../assets/back1.jpeg");
+}
+#banner2{
+  background-image: 
+  url(
+"../../assets/back2.jpeg");
+}
+#banner3{
+  background-image: 
+  url(
+"../../assets/back3.jpeg");
+}
+.info-banner{
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 100%;
+width: 100%;
+display: flex;
+justify-content:center;
+align-items:center;
+
+}
+.btn{
+  border: 1px solid #ffffff !important;
+  border-radius: 4px;
+  color:white !important;
+  background-color: transparent !important;
+} 
+
+
+.btn:hover {
+  color: white !important;
+  box-shadow: inset 0 -100px 0 0 #C67410;
+}
+
+.btn:active {
+  transform: scale(0.9);
+}
+
+.svg{
+  width:15vmin;
+}
+
+.side-info{
+  width:100%;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height:40vmin;
+  text-align: center;
+}
+
+.landing-squares{
+ height:60vmin;
+ width:100%
 }
